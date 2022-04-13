@@ -3,5 +3,5 @@
 
  int main(void)
  {
-     printf("Hello, CS50 Staff\n");
+     printf("Hello, %s\n" name);
  }
