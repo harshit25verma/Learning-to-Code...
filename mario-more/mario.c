@@ -19,6 +19,6 @@ int main(void)
      printf("_");
       }
     printf("\n");
-    h--
+    h--;
   }
 }
