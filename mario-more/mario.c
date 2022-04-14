@@ -10,13 +10,4 @@ int main(void)
   printf("#");
   i++;
   }
-      if(height <= 8 && height >= 1)
-      {
-          printf("  ");
-      }
-      if(height <= 8 && height >= 1)
-      {
-          printf("#\n");
-      }
-  }
 }
