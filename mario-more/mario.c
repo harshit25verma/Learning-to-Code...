@@ -6,18 +6,25 @@ int main(void)
   int h = get_int("Height: ");
   int s = h - 1;
   int n = 1;
-  while(true)
-  {
-  printf("#");
-  }
   if(h <= 8 && h >= 1)
   {
-   printf("  ");
+    while(true)
+    {
+    printf("#");
+    }
+    if(h <= 8 && h >= 1)
+    {
+    printf("  ");
+    }
+    if(h <= 8 && h >= 1)
+    {
+     printf("#\n");
+    }
+    s--;
+    n++;
   }
-  if(h <= 8 && h >= 1)
+  else
   {
-   printf("#\n");
+      get_int("Height: ");
   }
-  s--;
-  n++;
 }
