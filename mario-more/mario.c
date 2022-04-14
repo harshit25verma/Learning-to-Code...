@@ -6,7 +6,7 @@ int main(void)
     while(true)
     {
       int height = get_int("Height: ");
-      if(height = )
+      if(height = height-1)
       {
           printf("#");
       }
@@ -14,7 +14,7 @@ int main(void)
       {
           printf("  ");
       }
-      if(height = )
+      if(height = height-1)
       {
           printf("#\n");
       }
