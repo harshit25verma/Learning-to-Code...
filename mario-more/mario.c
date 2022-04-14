@@ -3,11 +3,14 @@
 
 int main(void)
 {
+  int h;
   do
   {
-    int h = get_int("Height: ");
+     h = get_int("Height: ");
   }
   while(h>8 || h<1);
-  
-    printf("####\n");
+  for
+  {
+     printf("####\n");
+  }
 }
