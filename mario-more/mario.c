@@ -17,7 +17,7 @@ int main(void)
       for(int j = h-1; j>1 && j<8; j--)
       {
      printf("_");
+         printf("\n");
       }
-    printf("\n");
   }
 }
