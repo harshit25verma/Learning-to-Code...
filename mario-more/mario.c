@@ -3,10 +3,9 @@
 
 int main(void)
 {
-    for(h=0 ; h<=8(&&)h>=1 ; )
+    for(int i=0; i<3; i++)
     {
         printf(" ");
-        printf("\n");
         printf("#");
     }
 }
