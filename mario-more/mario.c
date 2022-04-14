@@ -12,9 +12,9 @@ int main(void)
   while(h>8 || h<1);
   //Now we try to make the blocks code
   int i;
-  for(i=1 ; i <= h ; i++ && )
+  for(i=1 ; i <= h ; i++)
   {
-      for(int j = 1; j <= 1; j++)
+      for(int j = 1; j <= i; j++)
       {
      printf("_");
       }
