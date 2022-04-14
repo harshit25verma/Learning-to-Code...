@@ -9,9 +9,9 @@ int main(void)
      h = get_int("Height: ");
   }
   while(h>8 || h<1);
-  for(int i = h-1; i < h; i++)
+  for(int i = 0; i < h; i++)
   {
-      for(int j = h; j < h; j++)
+      for(int j = 0; j < h; j++)
       {
      printf("_");
       }
