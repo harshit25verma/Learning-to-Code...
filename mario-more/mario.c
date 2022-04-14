@@ -4,12 +4,11 @@
 int main(void)
 {
   int h = get_int("Height: ");
-  int s = height - 1;
+  int s = h - 1;
   int n = 1;
-  while(s > 7)
+  while(true)
   {
   printf("#");
-  s++;
   }
   if(h <= 8 && h >= 1)
   {
