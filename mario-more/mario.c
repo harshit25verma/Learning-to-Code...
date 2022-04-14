@@ -22,13 +22,10 @@ int main(void)
     }
     s--;
     n++;
+    
   }
-  else
+  else if(h >= 8 || h <= 1)
   {
-      do
-      {
-      get_int("Height: ");
-      }
-      while(h >= 8 || h <= 1);
+    get_int("Height: ");
   }
 }
