@@ -3,8 +3,9 @@
 
 int main(void)
 {
-    if(int i=)
+    do
     {
-        printf
+
     }
+    while(h<=8&&h<=1)
 }
