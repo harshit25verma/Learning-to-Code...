@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    do
+    while(true)
     {
     int height = get_int("Height: ");
     if(height <= 8 && height >= 1)
@@ -11,6 +11,5 @@ int main(void)
         printf("#  #\n");
     }
     }
-    while(true);
 }
 
