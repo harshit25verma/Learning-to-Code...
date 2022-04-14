@@ -5,11 +5,19 @@ int main(void)
 {
     while(true)
     {
-    int height = get_int("Height: ");
-    if(height <= 8 && height >= 1)
-    {
-        printf("#  #\n");
-    }
+      int height = get_int("Height: ");
+      if(height = )
+      {
+          printf("#");
+      }
+      if(height <= 8 && height >= 1)
+      {
+          printf("  ");
+      }
+      if(height = )
+      {
+          printf("#\n");
+      }
     }
 }
 
