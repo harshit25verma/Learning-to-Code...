@@ -8,7 +8,7 @@ int main(void)
   int n = 1;
   if(h <= 8 && h >= 1)
   {
-    for(n)
+    for(n < )
     {
     printf("#");
     }
