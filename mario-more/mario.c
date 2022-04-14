@@ -13,18 +13,18 @@ int main(void)
   //Now we try to make the blocks code
   int i;
   int s=h;
-  for(i=1 ; i <= h ; i++ && s--)
+  for (i=1 ; i <= h ; i++ && s--)
   {
-    for(int d = 1; d < s ; d++)
+    for (int d = 1; d < s ; d++)
     {
       printf(" ");
     }
-      for(int j = 1; j <= i; j++)
+      for (int j = 1; j <= i; j++)
       {
-     printf("#");
+         printf("#");
       }
       printf("  ");
-            for(int j = 1; j <= i; j++)
+      for (int j = 1; j <= i; j++)
       {
      printf("#");
       }
