@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    for(h=0 ; h<=8 ; )
+    for(h=0 ; h<=8(&&)h>=1 ; )
     {
         printf(" ");
         printf("\n");
