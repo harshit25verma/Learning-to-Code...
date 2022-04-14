@@ -3,6 +3,8 @@
 
 int main(void)
 {
+    while(true)
+    {
     int height = get_int("Height: ");
     if(height <= 8 && height >= 1)
     {
@@ -11,6 +13,7 @@ int main(void)
     else if(height >= 8 && height <= 1);
     {
         get_int("Height: ");
+    }
     }
 }
 
