@@ -8,8 +8,7 @@ int main(void)
     int height = get_int("Height: ");
     if(height <= 8 && height >= 1)
     {
-        printf(" ");
-        printf("##\n");
+        printf("#  #\n");
     }
     }
 }
