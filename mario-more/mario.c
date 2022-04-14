@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    while(height <= 8 && height >= 1)
+    while(true)
     {
       int height = get_int("Height: ");
       if(height <= 8 && height >= 1)
