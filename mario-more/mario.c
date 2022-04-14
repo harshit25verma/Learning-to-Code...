@@ -4,10 +4,13 @@
 int main(void)
 {
     int height = get_int("Height: ");
-    do
+    if(height <= 8 && height >= 1)
     {
         printf("##\n");
     }
-    while(height <= 8 && height >= 1);
+    else
+    {
+        get_int("Height: ");
+    }
 }
-space = height - 1;
+
