@@ -14,7 +14,7 @@ int main(void)
         {
         get_int("Height: ");
         }
-        while(height >= 8 && height <= 1);
+        while(height >= 8 || height <= 1);
     }
 }
 
