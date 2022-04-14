@@ -10,4 +10,4 @@ int main(void)
     }
     while(height <= 8 && height >= 1);
 }
-space = height - 1;
+
