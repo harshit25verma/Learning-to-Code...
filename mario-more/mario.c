@@ -3,10 +3,9 @@
 
 int main(void)
 {
-    for()
+    int height = get_int("Height: ")
+    for(int height = 1 )
     {
-        int height = get_int("Height: ")
-        
     if(height <= 8 && height >= 1)
     {
         printf("##\n");
