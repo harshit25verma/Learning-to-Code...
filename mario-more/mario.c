@@ -3,19 +3,22 @@
 
 int main(void)
 {
-  int height = get_int("Height: ");
-  int space = 0;
-  while(space > 7)
+  int h = get_int("Height: ");
+  int s = height - 1;
+  int n = 1;
+  while(s > 7)
   {
   printf("#");
-  space++;
+  s++;
   }
-  if(height <= 8 && height >= 1)
+  if(h <= 8 && h >= 1)
   {
    printf("  ");
   }
-  if(height <= 8 && height >= 1)
+  if(h <= 8 && h >= 1)
   {
    printf("#\n");
   }
+  s--;
+  n++;
 }
