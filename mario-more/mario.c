@@ -8,17 +8,13 @@ int main(void)
   int n = 1;
   if(h <= 8 && h >= 1)
   {
-    for(n < )
+    while(n < )
     {
-    printf("#");
+    printf(" ");
     }
-    if(h <= 8 && h >= 1)
+    while()
     {
-    printf("  ");
-    }
-    if(h <= 8 && h >= 1)
-    {
-     printf("#\n");
+    printf("#\n");
     }
     s--;
     n++;
