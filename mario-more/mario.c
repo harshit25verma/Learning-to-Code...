@@ -8,11 +8,11 @@ int main(void)
   int n = 1;
   if(h <= 8 && h >= 1)
   {
-    while(s < 8)
+    for(s < 8)
     {
     printf(" ");
     }
-    while(n < 8 )
+    for(n < 8)
     {
     printf("#\n");
     }
