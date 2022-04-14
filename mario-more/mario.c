@@ -25,6 +25,10 @@ int main(void)
   }
   else
   {
+      do
+      {
       get_int("Height: ");
+      }
+      while(h <= 8 && h >= 1);
   }
 }
