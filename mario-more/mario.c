@@ -14,7 +14,7 @@ int main(void)
   int i;
   for(i=1 ; i <= h ; i++)
   {
-    for(int d = 1; d < h ;  )
+    for(int d = 1; d < h ; d++)
     {
       printf(".");
     }
