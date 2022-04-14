@@ -8,6 +8,14 @@ int main(void)
   while(space > 7)
   {
   printf("#");
-  i++;
+  space++;
+  }
+  if(height <= 8 && height >= 1)
+  {
+   printf("  ");
+  }
+  if(height <= 8 && height >= 1)
+  {
+   printf("#\n");
   }
 }
