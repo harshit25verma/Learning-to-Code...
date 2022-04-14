@@ -14,9 +14,9 @@ int main(void)
   int i;
   for(i=1 ; i <= h ; i++)
   {
-    for()
+    for(int d = 1; d < h ; )
     {
-      printf(int d = )
+      printf(".");
     }
       for(int j = 1; j <= i; j++)
       {
