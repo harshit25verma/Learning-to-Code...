@@ -3,20 +3,10 @@
 
 int main(void)
 {
-  int h = get_int("Height: ");
-  int s = h - 1;
-  int n = 1;
-  if(h <= 8 && h >= 1)
+  int h;
+  do
   {
-    for(s < 8)
-    {
-    printf(" ");
-    }
-    for(n < 8)
-    {
-    printf("#\n");
-    }
-    s--;
-    n++;
+    h = get_int("Height: ");
   }
+  while()
 }
