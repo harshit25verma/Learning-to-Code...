@@ -13,7 +13,7 @@ int main(void)
   //Now we try to make the blocks code
   int i;
   int n;
-  for( i=h-n ;  )
+  for( i=h-n ; )
   {
       for(int j = 0; j < h; j++)
       {
