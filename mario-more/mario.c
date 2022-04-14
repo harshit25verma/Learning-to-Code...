@@ -4,9 +4,11 @@
 int main(void)
 {
   int height = get_int("Height: ");
-  while(height <= 8 && height >= 1)
+  int space = 0;
+  while(space > 7)
   {
   printf("#");
+  i++;
   }
       if(height <= 8 && height >= 1)
       {
