@@ -10,10 +10,6 @@ int main(void)
     {
         printf("##\n");
     }
-    else if(height >= 8 || height <= 1)
-    {
-        get_int("Height: ");
-    }
     }
 }
 
