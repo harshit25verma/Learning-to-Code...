@@ -11,7 +11,7 @@ int main(void)
   while(h>8 || h<1);
   for(int i = h-1; i < h; i++)
   {
-      for(int j = 0; j < h; j++)
+      for(int j = h; j < h; j++)
       {
      printf("_");
       }
