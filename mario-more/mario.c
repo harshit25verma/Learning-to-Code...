@@ -12,14 +12,13 @@ int main(void)
   while(h>8 || h<1);
   //Now we try to make the blocks code
   int i;
-  int n;
-  for( i=h-n ; )
+  for( i=h-1 ; i < h ; )
   {
       for(int j = 0; j < h; j++)
       {
      printf("_");
       }
     printf("\n");
-    
+
   }
 }
