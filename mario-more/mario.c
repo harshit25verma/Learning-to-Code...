@@ -4,6 +4,9 @@
 int main(void)
 {
     int height = get_int("Height: ");
-    
+    if(height <= 8 ; height >= 1)
+    {
+         
+    }
 }
 space = height - 1;
