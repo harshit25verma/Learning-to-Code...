@@ -22,14 +22,5 @@ int main(void)
     }
     s--;
     n++;
-
-  }
-  else
-  {
-    while(true)
-    {
-    get_int("Height: ");
-    
-    }
   }
 }
