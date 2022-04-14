@@ -10,11 +10,10 @@ int main(void)
     }
     else
     {
-        do
+        while(height > 8 || height < 1)
         {
         get_int("Height: ");
         }
-        while(height > 8 || height < 1);
     }
 }
 
