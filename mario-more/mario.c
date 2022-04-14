@@ -3,10 +3,8 @@
 
 int main(void)
 {
-    int h = get_int("Height: ");
-    do
+    for(int i=0; i<3; i++)
     {
-
+        printf("meow\n");
     }
-    while(h <= 8 , h >= 1)
 }
