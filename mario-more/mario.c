@@ -3,10 +3,7 @@
 
 int main(void)
 {
-    do
-    {
-
-    }
-    while(h<=8&&h<=1)
+    int height = get_int("Height: ");
+    
 }
 space = height - 1;
