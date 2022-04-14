@@ -5,16 +5,12 @@ int main(void)
 {
     for()
     {
+        int height = get_int("Height: ")
+        
     if(height <= 8 && height >= 1)
     {
         printf("##\n");
     }
-    else
-    {
-        while(height > 8 || height < 1)
-        {
-        get_int("Height: ");
-        }
     }
 }
 
