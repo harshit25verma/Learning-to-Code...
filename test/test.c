@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
+int i = get_int("Change owed: ")
 int get_cents(int i);
 int calculate_quarters(int cents);
 int calculate_dimes(int cents);
