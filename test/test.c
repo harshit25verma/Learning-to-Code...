@@ -13,7 +13,7 @@ int main(void)
     // Ask how many cents the customer is owed
     do
     {
-    int cents = get_cents(i);
+    int cents = get_cents(int i);
     }
     while( i <= 0)
 
