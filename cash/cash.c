@@ -11,9 +11,10 @@ int calculate_pennies(int cents);
 int main(void)
 {
     // Ask how many cents the customer is owed
+
     do
     {
-    int h= get_int("Change owed: ");
+     int h= get_int("Change owed: ");
     }
     while( h < 0 );
 
