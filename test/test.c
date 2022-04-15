@@ -38,7 +38,7 @@ int main(void)
     printf("%i\n", coins);
 }
 
-int get_cents(i)
+int get_cents(void)
 {
     // TODO
     int i = get_int("Change owed: ");
