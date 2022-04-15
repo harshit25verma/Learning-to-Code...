@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int get_int("Chnage: ");
+int i= get_int("Chnage: ");
 int get_cents(int i);
 int calculate_quarters(int cents);
 int calculate_dimes(int cents);
