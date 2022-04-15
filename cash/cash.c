@@ -39,30 +39,30 @@ int main(void)
 
 int get_cents(int h)
 {
-    // TODO
+    // Return value of Input
     return h;
 }
 
 int calculate_quarters(int cents)
 {
-    // TODO
+    // Return value for No. of Quarters
     return cents / 25 ;
 }
 
 int calculate_dimes(int cents)
 {
-    // TODO
+    // Return value for No. of Dimes
     return cents / 10;
 }
 
 int calculate_nickels(int cents)
 {
-    // TODO
+    // Return value for No. of Nickels
     return cents / 5;
 }
 
 int calculate_pennies(int cents)
 {
-    // TODO
+    // Return value for No. of Pennies
     return cents / 1;
 }
