@@ -46,23 +46,23 @@ int get_cents(int h)
 int calculate_quarters(int cents)
 {
     // TODO
-    return cents % 25 ;
+    return cents / 25 ;
 }
 
 int calculate_dimes(int cents)
 {
     // TODO
-    return cents % 10;
+    return cents / 10;
 }
 
 int calculate_nickels(int cents)
 {
     // TODO
-    return cents % 5;
+    return cents / 5;
 }
 
 int calculate_pennies(int cents)
 {
     // TODO
-    return cents % 1;
+    return cents / 1;
 }
