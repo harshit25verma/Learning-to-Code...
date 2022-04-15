@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 
-int get_cents(int h);
+int get_cents(void);
 int calculate_quarters(int cents);
 int calculate_dimes(int cents);
 int calculate_nickels(int cents);
@@ -11,7 +11,7 @@ int calculate_pennies(int cents);
 int main(void)
 {
     // Ask how many cents the customer is owed
-     int cents = get_cents(h);
+     int cents = get_cents();
 
     // Calculate the number of quarters to give the customer
     int quarters = calculate_quarters(cents);
@@ -36,7 +36,7 @@ int main(void)
     printf("%i\n", coins);
 }
 
-int get_cents(int h)
+int get_cents(void)
 {
     // Return value of Input
     do
