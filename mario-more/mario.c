@@ -4,12 +4,12 @@
 int main(void)
 {
     //We need the self identifying loop
-  int h;
+    int h;
     do
     {
         h = get_int("Height: ");
     }
-    while ( h > 8 || h < 1);
+    while (h > 8 || h < 1);
     //Now we try to make the blocks code
     int i;
     int s=h;
