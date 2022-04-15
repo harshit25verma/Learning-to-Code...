@@ -46,7 +46,7 @@ int get_cents(int h)
 int calculate_quarters(int cents)
 {
     // TODO
-    return cents;
+    return cents%;
 }
 
 int calculate_dimes(int cents)
