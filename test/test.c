@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int get_cents(void);
+int get_cents(int i);
 int calculate_quarters(int cents);
 int calculate_dimes(int cents);
 int calculate_nickels(int cents);
@@ -38,7 +38,7 @@ int main(void)
     printf("%i\n", coins);
 }
 
-int get_cents(void)
+int get_cents(i)
 {
     // TODO
     int i = get_int("Change owed: ");
