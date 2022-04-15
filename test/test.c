@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <math.h>
 
-int i = get_int("Change owed: ")
 int get_cents(int i);
 int calculate_quarters(int cents);
 int calculate_dimes(int cents);
@@ -14,7 +13,7 @@ int main(void)
     // Ask how many cents the customer is owed
     do
     int cents = get_cents(i);
-    while(int i <= 0)
+    while( i <= 0)
 
     // Calculate the number of quarters to give the customer
     int quarters = calculate_quarters(cents);
