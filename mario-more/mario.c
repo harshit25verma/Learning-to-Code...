@@ -11,7 +11,8 @@ int main(void)
     }
     while ( h > 8 || h < 1);
     //Now we try to make the blocks code
-    int i; int s=h;
+    int i;
+    int s=h;
     for ( i = 1 ; i <= h ; i++ && s--)
     {
         for (int d = 1; d < s ; d++)
