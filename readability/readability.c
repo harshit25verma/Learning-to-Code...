@@ -16,7 +16,7 @@ int main(void)
 int words(string text)
 {
     int w = 0;
-    while (text[w] != '\0')
+    while (text[w] != '\0' && )
     {
         w++;
     }
