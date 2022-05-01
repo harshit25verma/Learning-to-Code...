@@ -6,12 +6,11 @@
 int main(void)
 {
     string text = get_string("Text: ");
-    
+    count_letters = string_length(text);
     printf("Number \n");
 }
 
 int count_letters(string text)
 {
-    count_letters = string_length(text);
-    return text;
+    return int ;
 }
