@@ -8,5 +8,5 @@ int main(void)
 }
 int count_letters(string text)
 {
-    reutrn text
+    return text;
 }
