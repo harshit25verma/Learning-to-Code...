@@ -12,7 +12,11 @@ int main(void)
     printf("Number %i\n" , letters);
 }
 
-int
+
+int count_words(string text)
+{
+    int w = 
+}
 
 
 
@@ -21,10 +25,10 @@ int
 
 int count_letters(string text)
 {
-    int i = 0;
-    while (text[i] != '\0')
+    int l = 0;
+    while (text[l] != '\0')
     {
-        i++;
+        l++;
     }
-    return i;
+    return l;
 }
