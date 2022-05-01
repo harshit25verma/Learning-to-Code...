@@ -6,6 +6,7 @@ int main(void)
     string text = get_string("Text: ");
     printf("Grade \n");
 }
+int count_letters(string text)
 {
     
 }
