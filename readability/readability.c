@@ -3,6 +3,8 @@
 #include <ctype.h>
 #include <math.h>
 
+int count_letters(string text);
+
 int main(void)
 {
     string text = get_string("Text: ");
@@ -12,5 +14,10 @@ int main(void)
 
 int count_letters(string text)
 {
-    return int ;
+    int i = 0;
+    while ()
+    {
+        i++;
+    }
+    return i;
 }
