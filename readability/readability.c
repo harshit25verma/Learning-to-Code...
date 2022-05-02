@@ -18,11 +18,15 @@ int main(void)
 
   int count_letters(string text)
   {
+      int a ;
+  for (a = 0 ; text[a] != 0 ; a++ )
+  {
         int l = 0;
         while(isalpha(text[l]))
         {
          l++;
         }
+  }
         return l;
   }
 
