@@ -19,9 +19,12 @@ int main(void)
   int count_letters(string text)
   {
       int l = 0;
-        while(isalpha(text[l]) && text[l] != 0)
+        while(text[l] != 0)
         {
-         l++;
+            if (isalpha(text[l])
+            {
+            l++;
+            }
         }
         return l;
   }
