@@ -14,7 +14,6 @@ int main(void)
     {
     int letters = count_letters(text);
     //int words = count_words(letters);
-    a++;
     }
     printf("Number %i \n" , letters);
 }
