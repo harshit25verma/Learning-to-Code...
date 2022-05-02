@@ -36,7 +36,8 @@ int count_letters(string text)
 
 //for (x != 0)
     //{
-//       while(isalpha(text))
+        //int x = 0;
+//       while(isalpha(text[x]))
 //        {
 //         x++;
 //        }
