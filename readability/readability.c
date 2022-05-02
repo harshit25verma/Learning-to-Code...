@@ -10,7 +10,7 @@ int main(void)
 {
     string text = get_string("Text: ");
     int a ;
-    for (a = 0 ; text[a] != 0 ; )
+    for (a = 0 ; text[a] != 0 ; a++ )
     {
     int letters = count_letters(text);
     //int words = count_words(letters);
