@@ -17,11 +17,16 @@ int main(void)
 int count_words(string text)
 {
     int w = 0;
-    while (text[w] != '\0' , ' ', '.', ',') //
+    int s = 0;
+    if (text[w] != '\0' , ' ', '.', ',') //
     {
         w++;
     }
-    return w;
+    else
+    {
+        s++;
+    }
+    return s;
 }
 
 
