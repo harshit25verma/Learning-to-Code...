@@ -4,6 +4,7 @@
 #include <math.h>
 
 int count_letters(string text);
+int count_words(string text);
 
 int main(void)
 {
@@ -13,10 +14,10 @@ int main(void)
     printf("Number %i %i\n" , letters);
 }
 
-int words(string text)
+int count_words(string text)
 {
     int w = 0;
-    while (text[w] != '\0' , ' ', '.', ',')
+    while (text[w] != '\0' , ' ', '.', ',') //
     {
         w++;
     }
