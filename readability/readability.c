@@ -18,10 +18,10 @@ int main(void)
 
 int count_letters(string text)
 {
-    int l = 0;
-    while (text[l] != '\0')
+    int a = 0;
+    while (text[a] != '\0')
     {
-        l++;
+        a++;
     }
-    return l;
+    return a;
 }
