@@ -35,6 +35,7 @@ int count_letters(string text)
 }
 
 //while (x != 0)
+//
     //    {
         //int l = 0;
 //        while(isalpha(text[l]))
@@ -52,7 +53,8 @@ int count_letters(string text)
     //     w++;
 //        }
 //        return y;
-//
+//       x++;
+//      
 //
 //
 //
