@@ -17,7 +17,6 @@ int main(void)
 int count_words(string letters)
 {
     int w = 0;
-
 }
 
 
