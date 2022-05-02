@@ -14,8 +14,7 @@ int main(void)
     printf("Number %i \n" , letters);
 }
 
-int main(void)
-{
+
     char c = get_char("Input: ");
     if (isspace(c))
     {
