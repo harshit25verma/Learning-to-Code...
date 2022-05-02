@@ -43,7 +43,7 @@ int count_letters(string text)
 //        }
 //        return x;
 //
-//
+//int count_words()
         //int x = 0;
 //        if(isalpha(text[x]))
 //        {
@@ -52,9 +52,9 @@ int count_letters(string text)
 //        else if(isspace(text[x]))
 //        {
     //     y++;
-    //     
+    //     x++;
 //        }
-//        return x;
+//        return y;
 //
 //
 //
