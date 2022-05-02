@@ -19,16 +19,17 @@ int main(void)
 
   int count_letters(string text)
   {
-      int n = 0;
+      int l = 0;
+      int h = 0;
         for(int i = 0, n = strlen(text) ; text[l] != 0 && i < n; i++)
         {
-            char a = text[l]
-            if(isalpha(s[n]))
+            char a = text[l];
+            if(isalpha(a[h]))
             {
-            n++;
+            h++;
             }
         }
-        return n;
+        return h;
   }
 
 
