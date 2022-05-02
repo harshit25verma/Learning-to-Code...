@@ -43,6 +43,8 @@ int count_letters(string text)
 //        }
 //        return x;
 //
+//
+//
 //int count_words(string text)
         //int x = 0;
 //        if(isalpha(text[x]))
