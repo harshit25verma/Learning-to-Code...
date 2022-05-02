@@ -18,7 +18,7 @@ int count_words(string text)
 {
     int w = 0;
     int s = 0;
-    if (text[w] != '\0' , ' ', '.', ',')
+    if (text[w] != '\0' , '\ ', '\.', '\,')
     {
         w++;
     }
