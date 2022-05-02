@@ -45,9 +45,13 @@ int count_letters(string text)
 //
 //
         //int x = 0;
-//       while(isalpha(text[x]))
+//        if(isalpha(text[x]))
 //        {
 //         x++;
+//        }
+//        else if(isspace(text[x]))
+//        {
+    //     
 //        }
 //        return x;
 //
