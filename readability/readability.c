@@ -22,7 +22,7 @@ int count_words(string text)
     {
         w++;
     }
-    else if (text[w] = ' ')
+    else if (text[w] == ' ')
     {
         s++;
     }
