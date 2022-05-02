@@ -20,9 +20,8 @@ int main(void)
   int count_letters(string text)
   {
       int h = 0;
-        for(int i = 0, n = strlen(text) ; text[i] != 0 && i < n; i++)
+        for(int i = 0, text[i] != 0 ; i++)
         {
-            char alpha = text[i];
             if(isalpha(alpha[h]))
             {
             h++;
