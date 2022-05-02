@@ -20,12 +20,13 @@ int main(void)
   {
       int l = 0;
       int a ;
-  for (a = 0 ; text[a] != 0 ; a++ )
+  for (a = 0 ; text[a] != 0 )
   {
         while(isalpha(text[l]))
         {
          l++;
         }
+     a++
   }
         return l;
   }
