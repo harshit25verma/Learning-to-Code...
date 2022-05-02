@@ -33,3 +33,20 @@ int count_letters(string text)
     }
     return a;
 }
+
+//for (x != 0)
+    //{
+//       while()
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+   // }
