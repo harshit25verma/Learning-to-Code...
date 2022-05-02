@@ -18,7 +18,6 @@ int main(void)
 
   int count_letters(string text)
   {
-      int a = 0;
       int l = 0;
         while(text[l] != 0)
         {
@@ -26,7 +25,7 @@ int main(void)
             {
             l++;
             }
-        a++;
+
         }
         return l;
   }
