@@ -34,23 +34,22 @@ int count_letters(string text)
     return a;
 }
 
-//for (x != 0)
-    //{
-        //int w = 0;
-//       while(isalpha(text[w]))
+//while (x != 0)
+    //    {
+        //int l = 0;
+//        while(isalpha(text[l]))
 //        {
-//         w++;
+//         l++;
 //        }
-//        return w;
+//        return l;
 //
 //
 //
 //int count_words(string text)
-        //int x = 0;
-//        if(isspace(text[x]))
+        //int w = 0;
+//        if(isspace(text[w]))
 //        {
-    //     y++;
-    //     x++;
+    //     w++;
 //        }
 //        return y;
 //
