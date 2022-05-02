@@ -22,7 +22,7 @@ int main(void)
       int h = 0;
         for(int i = 0, n = strlen(text) ; text[i] != 0 && i < n; i++)
         {
-            char alpha = text[i];
+            string alpha = text[i];
             if(isalpha(alpha[h]))
             {
             h++;
