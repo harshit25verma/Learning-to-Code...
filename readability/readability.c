@@ -44,6 +44,12 @@ int count_letters(string text)
 //        return x;
 //
 //
+        //int x = 0;
+//       while(isalpha(text[x]))
+//        {
+//         x++;
+//        }
+//        return x;
 //
 //
 //
