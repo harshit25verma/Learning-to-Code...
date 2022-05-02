@@ -8,11 +8,13 @@ int count_letters(string text);
 
 int main(void)
 {
+    int letters;
+    
     string text = get_string("Text: ");
     int a ;
     for (a = 0 ; text[a] != 0 ; a++ )
     {
-    int letters = count_letters(text);
+    letters = count_letters(text);
     //int words = count_words(letters);
     }
     printf("Number %i \n" , letters);
