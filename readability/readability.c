@@ -14,7 +14,18 @@ int main(void)
     printf("Number %i \n" , letters);
 }
 
-
+int main(void)
+{
+    char c = get_char("Input: ");
+    if (isspace(c))
+    {
+        printf("Your input is whitespace.\n");
+    }
+    else
+    {
+        printf("Your input is not whitespace.\n");
+    }
+}
 
 int count_letters(string text)
 {
