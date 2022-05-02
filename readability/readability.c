@@ -19,13 +19,12 @@ int main(void)
   int count_letters(string text)
   {
       int l = 0;
-        while(text[l] != 0)
+        for(int i = 0, n = strlen(s) && text[l] != 0 ; i < n; i++)
         {
             if(isalpha(text[l]))
             {
             l++;
             }
-
         }
         return l;
   }
