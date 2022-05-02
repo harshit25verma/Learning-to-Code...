@@ -51,6 +51,7 @@ int count_letters(string text)
 //        }
 //        else if(isspace(text[x]))
 //        {
+    //     y++;
     //     
 //        }
 //        return x;
