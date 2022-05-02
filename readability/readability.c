@@ -47,11 +47,7 @@ int count_letters(string text)
 //
 //int count_words(string text)
         //int x = 0;
-//        if(isalpha(text[x]))
-//        {
-//         x++;
-//        }
-//        else if(isspace(text[x]))
+//        if(isspace(text[x]))
 //        {
     //     y++;
     //     x++;
