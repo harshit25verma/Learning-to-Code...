@@ -28,6 +28,7 @@ int main(void)
             {
             h++;
             }
+            l++;
         }
         return h;
   }
