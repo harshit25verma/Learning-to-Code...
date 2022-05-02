@@ -4,21 +4,15 @@
 #include <math.h>
 
 int count_letters(string text);
-int count_words(string text);
+//int count_words(string text);
 
 int main(void)
 {
     string text = get_string("Text: ");
     int letters = count_letters(text);
-    int words = count_words(letters);
-    printf("Number %i %i\n" , letters ,words);
+    //int words = count_words(letters);
+    printf("Number %i \n" , letters);
 }
-
-int count_words(string letters)
-{
-    int w = 0;
-}
-
 
 
 
