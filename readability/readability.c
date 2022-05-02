@@ -22,7 +22,7 @@ int main(void)
       int a ;
   for (a = 0 ; text[a] != 0 ; a++)
   {
-        while(isalpha(a[l]))
+        while(isalpha(text[l]))
         {
          l++;
         }
