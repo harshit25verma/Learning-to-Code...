@@ -29,12 +29,15 @@ int main(void)
 
 
 //while (x != 0)
-//
-    //    {
         //int l = 0;
-//        while(isalpha(text[l]))
+//        for (text[h]!= '\0')
+    //    {
+        // each character = declaration;
+//        while(isalpha(check for each character)
 //        {
 //         l++;
+//        }
+//        each character++;
 //        }
 //        return l;
 //
