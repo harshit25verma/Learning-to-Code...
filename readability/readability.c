@@ -14,9 +14,8 @@ int main(void)
     printf("Number %i \n" , letters);
 }
 
-int a ;
-for (a = 0 ; text[a] != 0 ; a++ )
-{
+
+
   int count_letters(string text)
   {
         int l = 0;
@@ -26,7 +25,6 @@ for (a = 0 ; text[a] != 0 ; a++ )
         }
         return l;
   }
-}
 
 //while (x != 0)
 //
