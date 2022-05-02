@@ -40,7 +40,7 @@ int count_letters(string text)
 //        {
 //         x++;
 //        }
-//
+//        return x;
 //
 //
 //
