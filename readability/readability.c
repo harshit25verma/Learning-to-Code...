@@ -21,7 +21,7 @@ int main(void)
       int l = 0;
         while(text[l] != 0)
         {
-            if(isalpha(text[l])
+            if(isalpha(text[l]))
             {
             l++;
             }
