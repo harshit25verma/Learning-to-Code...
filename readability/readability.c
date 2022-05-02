@@ -23,8 +23,8 @@ int main(void)
       int h = 0;
         for(int i = 0, n = strlen(text) ; text[l] != 0 && i < n; i++)
         {
-            char a = text[l];
-            if(isalpha(a[h]))
+            char alpha = text[l];
+            if(isalpha(alpha[h]))
             {
             h++;
             }
