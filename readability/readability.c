@@ -10,14 +10,16 @@ int count_senteces(string text);
 
 int main(void)
 {
-    string text = get_string("Text: ");
-    float letters = count_letters(text);
-    float words = count_words(text);
-    float sentences = count_senteces(text);
+    string text = get_string("Text: "); //Input of Text from the user
 
-    float L = letters / words * 100;
-    float S = sentences / words * 100;
-    float index = (0.0588 * L) - (0.296 * S) - 15.8;
+    float letters = count_letters(text); //Function that counts letters in the text
+    float words = count_words(text); //Function that counts words(spaces+1) in the text
+    float sentences = count_senteces(text); //Function that counts '!' '.' '?' in the text
+
+    float L = letters / words * 100; //Average of Letters per 100 words
+    float S = sentences / words * 100; //Average of Sentences per 100 words
+    float index = (0.0588 * L) - (0.296 * S) - 15.8; //Coleman-Liau index formula
+
     if (index >= 16)
     {
         printf("Grade 16+\n");
