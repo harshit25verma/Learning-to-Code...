@@ -14,6 +14,7 @@ int main(void)
     int letters = count_letters(text);
     int words = count_words(text);
     int sentences = count_senteces(text);
+    
     printf("Letters %i\nWords %i\nSentences %i\n" , letters , words, sentences);
 }
 
