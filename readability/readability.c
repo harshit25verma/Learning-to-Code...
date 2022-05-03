@@ -30,7 +30,7 @@ int main(void)
     }
     else
     {
-        printf("Grade %i\n" ,(int) round(index));
+        printf("Grade %i\n", (int) round(index));
     }
 }
 
@@ -73,9 +73,9 @@ int count_senteces(string text) //int function count_sentences with input of a s
     while (text[b] != '\0') //Check of the the at the no. h array is null value
     {
         if (text[b] == '!' || text[b] == '.' || text[b] == '?') //Check of the the at the no. h array is !/./?
-      {
+        {
             c++; // Value actually needed
-      }
+        }
         b++; //Increasing the value of array no.
     }
     return c;
