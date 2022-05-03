@@ -54,3 +54,7 @@ int count_words(string text)
        return m;//w = l - d ;
 }
 
+int count_senteces(string text);
+{
+  
+}
