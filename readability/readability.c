@@ -51,30 +51,30 @@ int count_letters(string text)
 
 int count_words(string text)
 {
-  int l = 0;
-  int m = 0;
-    while(text[l] != '\0')
+    int l = 0;
+    int m = 0;
+    while (text[l] != '\0')
+    {
+        if (isspace(text[l]))
         {
-        if(isspace(text[l]))
-         {
-           m++;
-         }
-         l++;
-         }
-       return m + 1;
+            m++;
+        }
+        l++;
+    }
+    return m + 1;
 }
 
 int count_senteces(string text)
 {
-  int b = 0;
-  int c = 0;
-  while(text[b] != '\0')
-        {
-    if(text[b] == '!' || text[b] == '.' || text[b] == '?')
-       {
-          c++;
-       }
-     b++;
-        }
-       return c;
+    int b = 0;
+    int c = 0;
+    while (text[b] != '\0')
+    {
+        if (text[b] == '!' || text[b] == '.' || text[b] == '?')
+      {
+            c++;
+      }
+        b++;
+    }
+    return c;
 }
