@@ -20,10 +20,11 @@ int main(void)
   int count_letters(string text)
   {
 
-      int s = 0;
+
       int h = 0;
             while(text[h] != '\0')
             {
+                      int s = h;
                 if(isspace(text[h]) || text[h] == '\44' || text[h] == '\46')
                       {
                          s++;
