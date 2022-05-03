@@ -42,17 +42,17 @@ int count_words(string text)
   int d = 0;
     while(text[l] != '\0')
         {
-        if(isspace(text[l]))
+        if(isspace(text[l]) || text[l] == ',' || text[l] == '.')
          {
            m++;
          }
-         else if(text[l] == ',' || text[l] == '.')
-         {
-             d++;
+        //  else if(text[l] == ',' || text[l] == '.')
+        //  {
+        //      d++;
+        //  }
+        // l++;
          }
-        l++;
-        }
-        int w;
+        // int w;
        return m;//w = l - d ;
 }
 
