@@ -6,15 +6,15 @@
 
 int count_letters(string text);
 int count_words(string text);
-int count_senteces(string text);
+//int count_senteces(string text);
 
 int main(void)
 {
     string text = get_string("Text: ");
     int letters = count_letters(text);
     int words = count_words(text); //- letters;
-    int sentences = count_senteces(text);
-    printf("Letters %i\n Words %i\n Sentences %i\n" , letters , words , sentences);
+    //int sentences = count_senteces(text);
+    printf("Letters %i\n Words %i\n " , letters , words);
 }
 
 
@@ -56,16 +56,16 @@ int count_words(string text)
        return m;//w = l - d ;
 }
 
-int count_senteces(string text)
-{
-  int b = 0;
-  int c = 0;
-  while(text[b] != '\0')
+// int count_senteces(string text)
+// {
+//   int b = 0;
+//   int c = 0;
+//   while(text[b] != '\0')
 
-    if(text[b] == '!' || text[b] == '.' || text[b] == '?')
-       {
-          c++;
-       }
-     b++;
-       return c;//w = l - d ;
-}
+//     if(text[b] == '!' || text[b] == '.' || text[b] == '?')
+//        {
+//           c++;
+//        }
+//      b++;
+//        return c;//w = l - d ;
+// }
