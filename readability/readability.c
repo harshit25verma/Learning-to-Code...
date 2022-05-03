@@ -17,24 +17,24 @@ int main(void)
 
 
 
-  int count_letters(string text)
-  {
-      int h = 0;
-     int s = h;
-            while(text[h] != '\0')
-            {
-                if(isspace(text[h]) || text[h] == '\44' || text[h] == '\46')
-                      {
-                         s++;
-                      }
-                    h++;
-            }
-        return h - s;
-  }
+int count_letters(string text)
+{
+  int h = 0;
+  int s = h;
+    while(text[h] != '\0')
+        {
+        if(isspace(text[h]) || text[h] == '\44' || text[h] == '\46')
+         {
+           s++;
+         }
+        h++;
+        }
+    return h - s;
+}
 
 
 
-
+    
 //while (x != 0)
         //int l = 0;
 //        for (text[h]!= '\0')
