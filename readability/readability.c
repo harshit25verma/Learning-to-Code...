@@ -34,34 +34,3 @@ int count_letters(string text)
 
 
 
-
-//while (x != 0)
-        //int l = 0;
-//        for (text[h]!= '\0')
-    //    {
-        // each character = declaration;
-//        while(isalpha(check for each character)
-//        {
-//         l++;
-//        }
-//        each character++;
-//        }
-//        return l;
-//
-//
-//
-//int count_words(string text)
-        //int w = 0;
-//        if(isspace(text[w]))
-//        {
-    //     w++;
-//        }
-//        return y;
-//       x++;
-//
-//
-//
-//
-//
-//
-   // }
