@@ -40,14 +40,13 @@ int count_letters(string text)
   int s = h;
     while(text[h] != '\0')
         {
-        if(isspace(text[h]) || text[h] == ',' || text[h] == '.')
+        if(isalpha(text[h]))
          {
            s++;
          }
         h++;
         }
-        int a;
-    return a = h - s;
+    return s;
 }
 
 int count_words(string text)
