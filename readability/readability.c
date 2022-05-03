@@ -12,7 +12,7 @@ int main(void)
 {
     string text = get_string("Text: ");
     int letters = count_letters(text);
-    int words = count_words(text);
+    int words = count_words(text); //- letters;
     int sentences = count_senteces(text);
     printf("Letters %i\n Words %i\n Sentences %i\n" , letters , words , sentences);
 }
@@ -46,10 +46,10 @@ int count_words(string text)
          {
            m++;
          }
-         else if(text[l] == ',' || text[l] == '.')
-         {
-             d++;
-         }
+//         else if(text[l] == ',' || text[l] == '.')
+//         {
+//             d++;
+//         }
         l++;
         }
         int w;
