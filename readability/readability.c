@@ -23,7 +23,7 @@ int count_letters(string text)
   int s = h;
     while(text[h] != '\0')
         {
-        if(isspace(text[h]) || text[h] == '\44' || text[h] == '\46')
+        if(isspace(text[h]) || text[h] == ',' || text[h] == '.')
          {
            s++;
          }
@@ -34,7 +34,7 @@ int count_letters(string text)
 
 
 
-    
+
 //while (x != 0)
         //int l = 0;
 //        for (text[h]!= '\0')
