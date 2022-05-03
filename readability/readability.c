@@ -42,18 +42,13 @@ int count_words(string text)
   int d = 0;
     while(text[l] != '\0')
         {
-        if(isspace(text[l]) || text[l] == ',' || text[l] == '.')
+        if(isspace(text[l]))
          {
            m++;
          }
-        //  else if(text[l] == ',' || text[l] == '.')
-        //  {
-        //      d++;
-        //  }
          l++;
          }
-        // int w;
-       return m - 1;//w = l - d ;
+       return m + 1;
 }
 
 // int count_senteces(string text)
