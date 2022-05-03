@@ -35,10 +35,13 @@ int count_letters(string text)
 int count_words(string text)
 {
     int w = 0;
-    int t = w;
+    int t ;
     while(text[w] != 0)
     {
-        if(t>0 || w==t)
+        for(t = w; isspace(text[w]); t=0 || t<2)
+        {
+            t++;
+        }
        w++;
     }
 }
