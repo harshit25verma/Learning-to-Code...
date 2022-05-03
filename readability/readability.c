@@ -19,19 +19,24 @@ int main(void)
 
   int count_letters(string text)
   {
+
+      int s = 0;
       int h = 0;
-            if(text[h] != '\0')
+            while(text[h] != '\0')
             {
-            h++;
+                if(isspace(text[h]))
+                      {
+                         s++;
+                      }
+                       else
+                      {
+                         h++;
+                      }
             }
         return h - s;
   }
 
-int s = 0;
-if(isspace(text[h]))
-{
-    s++;
-}
+
 
 
 //while (x != 0)
