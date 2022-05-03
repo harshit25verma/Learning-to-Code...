@@ -12,8 +12,9 @@ int main(void)
 {
     string text = get_string("Text: ");
     int letters = count_letters(text);
-    int words = count_words(text); //- letters;
-    printf("Number %i %i \n" , letters , words);
+    int words = count_words(text);
+    int sentences = count_senteces(text);
+    printf("Letters %i\n Words %i\n Sentences %i\n" , letters , words , sentences);
 }
 
 
@@ -61,7 +62,7 @@ int count_senteces(string text)
   int c = 0;
   while(text[b] != '\0')
 
-    if(text[b] == ',' || text[b] == '.')
+    if(text[b] == '!' || text[b] == '.' || text[b] == '?')
        {
           c++;
        }
