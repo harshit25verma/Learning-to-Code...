@@ -11,8 +11,8 @@ int main(void)
 {
     string text = get_string("Text: ");
     int letters = count_letters(text);
-    //int words = count_words(letters);
-    printf("Number %i \n" , letters);
+    int words = count_words(text);
+    printf("Number %i %i \n" , letters , words);
 }
 
 
