@@ -48,5 +48,5 @@ int count_words(string text)
 
 int count_words(string text)
 {
-    int s= 
+    int s =
 }
