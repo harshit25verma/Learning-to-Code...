@@ -36,47 +36,47 @@ int main(void)
 
 
 
-int count_letters(string text)
+int count_letters(string text) //int function count_letters with input of a string text
 {
     int h = 0;
     int s = 0;
-    while (text[h] != '\0')
+    while (text[h] != '\0') //Check of the the at the no. h array is null value
     {
-        if (isalpha(text[h]))
+        if (isalpha(text[h])) //Check of the the at the no. h array is alphabet
         {
-            s++;
+            s++; // Value actually needed
         }
-        h++;
+        h++; //Increasing the value of array no.
     }
     return s;
 }
 
-int count_words(string text)
+int count_words(string text) //int function count_words with input of a string text
 {
     int l = 0;
     int m = 0;
-    while (text[l] != '\0')
+    while (text[l] != '\0') //Check of the the at the no. h array is null value
     {
-        if (isspace(text[l]))
+        if (isspace(text[l])) //Check of the the at the no. h array is space
         {
-            m++;
+            m++; // Value actually needed
         }
-        l++;
+        l++; //Increasing the value of array no.
     }
     return m + 1;
 }
 
-int count_senteces(string text)
+int count_senteces(string text) //int function count_sentences with input of a string text
 {
     int b = 0;
     int c = 0;
-    while (text[b] != '\0')
+    while (text[b] != '\0') //Check of the the at the no. h array is null value
     {
-        if (text[b] == '!' || text[b] == '.' || text[b] == '?')
+        if (text[b] == '!' || text[b] == '.' || text[b] == '?') //Check of the the at the no. h array is !/./?
       {
-            c++;
+            c++; // Value actually needed
       }
-        b++;
+        b++; //Increasing the value of array no.
     }
     return c;
 }
