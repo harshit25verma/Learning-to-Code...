@@ -20,15 +20,15 @@ int main(void)
     float index = (0.0588 * L) - (0.296 * S) - 15.8;
     if (index >= 16)
     {
-      printf("Grade 16+\n");
+        printf("Grade 16+\n");
     }
-    else if(index < 1)
+    else if (index < 1)
     {
-      printf("Before Grade 1\n");
+        printf("Before Grade 1\n");
     }
     else
     {
-    printf("Grade %i\n" ,(int) round(index));
+        printf("Grade %i\n" ,(int) round(index));
     }
 }
 
@@ -36,16 +36,16 @@ int main(void)
 
 int count_letters(string text)
 {
-  int h = 0;
-  int s = 0;
-    while(text[h] != '\0')
+    int h = 0;
+    int s = 0;
+    while (text[h] != '\0')
+    {
+        if (isalpha(text[h]))
         {
-        if(isalpha(text[h]))
-         {
-           s++;
-         }
-        h++;
+            s++;
         }
+        h++;
+    }
     return s;
 }
 
