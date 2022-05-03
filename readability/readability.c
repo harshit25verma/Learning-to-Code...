@@ -24,7 +24,7 @@ int main(void)
       int h = 0;
             while(text[h] != '\0')
             {
-                if(isspace(text[h]) || text[h] == '\44' || text[h] == '\46')
+                if(isspace(text[s]) || text[h] == '\44' || text[h] == '\46')
                       {
                          s++;
                       }
