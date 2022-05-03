@@ -39,7 +39,6 @@ int count_words(string text)
 {
   int l = 0;
   int m = 0;
-  int d = 0;
     while(text[l] != '\0')
         {
         if(isspace(text[l]))
