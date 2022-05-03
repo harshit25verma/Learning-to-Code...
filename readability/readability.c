@@ -57,11 +57,13 @@ int count_words(string text)
 int count_senteces(string text);
 {
   int b = 0;
-    if(text[l] == ',' || text[l] == '.')
+  while(text[b] != '\0')
+
+    if(text[b] == ',' || text[b] == '.')
        {
           d++;
        }
-     l++;
+     b++;
         int w;
        return m;//w = l - d ;
 }
