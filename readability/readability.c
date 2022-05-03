@@ -29,7 +29,8 @@ int count_letters(string text)
          }
         h++;
         }
-    return h - s;
+        int l;
+    return l = h - s;
 }
 
 int count_words(string text)
