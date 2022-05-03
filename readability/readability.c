@@ -24,11 +24,11 @@ int main(void)
             {
             h++;
             }
-        return h;
+        return h - s;
   }
 
 int s = 0;
-if()
+if(isspace(text[h]))
 {
     s++;
 }
