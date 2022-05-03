@@ -27,6 +27,12 @@ int main(void)
         return h;
   }
 
+int s = 0;
+if()
+{
+    s++;
+}
+
 
 //while (x != 0)
         //int l = 0;
