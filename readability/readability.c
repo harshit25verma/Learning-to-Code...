@@ -18,7 +18,13 @@ int main(void)
     int L = letters/words*100;
     int S = sentences/words*100;
     int index = 0.0588 * L - 0.296 * S - 15.8;
+    if(index)
+    {
+    }
+    else
+    {
     printf("Grade %i" , index);
+    }
 }
 
 
