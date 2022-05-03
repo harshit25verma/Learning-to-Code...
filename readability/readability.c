@@ -46,10 +46,10 @@ int count_words(string text)
          {
            m++;
          }
-//         else if(text[l] == ',' || text[l] == '.')
-//         {
-//             d++;
-//         }
+         else if(text[l] == ',' || text[l] == '.')
+         {
+             d++;
+         }
         l++;
         }
         int w;
