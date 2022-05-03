@@ -17,7 +17,8 @@ int main(void)
 
     int L = letters/words*100;
     int S = sentences/words*100;
-    printf("Grade 0.0588 * %i - 0.296 * %i - 15.8" , L , S);
+    int index = 0.0588 * L - 0.296 * S - 15.8;
+    printf("Grade %i" , index);
 }
 
 
