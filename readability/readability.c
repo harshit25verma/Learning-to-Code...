@@ -37,7 +37,7 @@ int main(void)
 int count_letters(string text)
 {
   int h = 0;
-  int s = h;
+  int s = 0;
     while(text[h] != '\0')
         {
         if(isalpha(text[h]))
