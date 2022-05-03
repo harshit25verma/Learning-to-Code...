@@ -6,6 +6,7 @@
 
 int count_letters(string text);
 int count_words(string text);
+int count_senteces(string text);
 
 int main(void)
 {
@@ -54,16 +55,16 @@ int count_words(string text)
        return m;//w = l - d ;
 }
 
-int count_senteces(string text);
+int count_senteces(string text)
 {
   int b = 0;
+  int c = 0;
   while(text[b] != '\0')
 
     if(text[b] == ',' || text[b] == '.')
        {
-          d++;
+          c++;
        }
      b++;
-        int w;
-       return m;//w = l - d ;
+       return c;//w = l - d ;
 }
