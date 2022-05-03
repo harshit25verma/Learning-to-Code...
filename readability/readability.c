@@ -49,6 +49,6 @@ int count_words(string text)
          }
         l++;
         }
-        int w;
-    return w = h - s;
+        int w = h - s;
+    return ;
 }
