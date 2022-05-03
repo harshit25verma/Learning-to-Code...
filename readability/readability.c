@@ -53,7 +53,7 @@ int count_words(string text)
          l++;
          }
         // int w;
-       return m;//w = l - d ;
+       return m - 1;//w = l - d ;
 }
 
 // int count_senteces(string text)
