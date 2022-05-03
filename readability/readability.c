@@ -29,8 +29,8 @@ int count_letters(string text)
          }
         h++;
         }
-        int l;
-    return l = h - s;
+        int a;
+    return a = h - s;
 }
 
 int count_words(string text)
@@ -45,7 +45,7 @@ int count_words(string text)
          }
          else if(text[l] == ',' || text[l] == '.')
          {
-             d++
+             d++;
          }
         l++;
         }
