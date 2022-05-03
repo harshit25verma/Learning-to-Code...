@@ -22,9 +22,9 @@ int main(void)
 
       int s = 0;
       int h = 0;
-            while(text[h] != '\0' || text[h] != '' )
+            while(text[h] != '\0' || text[h] != '\46' )
             {
-                if(isspace(text[h]))
+                if(isspace(text[h]) || text[h] != '\44')
                       {
                          s++;
                       }
