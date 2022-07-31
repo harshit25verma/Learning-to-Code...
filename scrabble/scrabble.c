@@ -39,6 +39,7 @@ int compute_score(string word)
 
       // if array is a, then is equal to point array 0, if array is b, then is equal to point array 1 and so on
       int n = word[]
+      //If 
       = int POINTS[n]
       // Return int value i.e addition of all array no.s assigned ot the word
 
