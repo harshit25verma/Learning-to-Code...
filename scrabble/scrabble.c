@@ -38,9 +38,24 @@ int compute_score(string word)
       if (isalpha(text[h]))// At each non null array,check if alphabet
 
       // if array is a, then is equal to point array 0, if array is b, then is equal to point array 1 and so on
-      int n = word[]
-      //When array at value is 36, give it 1
-       = int POINTS[n]
+      //
+      //If array value of word is 36, then int value equals array value 
       // Return int value i.e addition of all array no.s assigned ot the word
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+int n = word[]
+      //When array at value is 36, give it 1
+       = int POINTS[n]
