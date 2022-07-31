@@ -35,11 +35,13 @@ int compute_score(string word)
       // Start at array 0 and keep going until it is null
       int s = 0;
       while (word1[s] != '\0')
-      if (isalpha(text[h]))// At each non null array,check if alphabet
+      if (isalpha(word1[s]))// At each non null array,check if alphabet
 
       // if array is a, then is equal to point array 0, if array is b, then is equal to point array 1 and so on
       //
-      //If array value of word is 36, then int value equals array value 
+      //If array value of word is 36, then int value equals array valueof place 0 of point
+      //If (word1[s] == 36)
+      //
       // Return int value i.e addition of all array no.s assigned ot the word
 
 }
