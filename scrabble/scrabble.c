@@ -32,6 +32,8 @@ int compute_score(string word)
     // TODO: Compute and return score for string
 
      // Start at array 0 and keep going until it is null
-     // At each non null array, 
+     // At each non null array,check if alphabet
+     // if array is a, then is equal to point array 0, if array is b, then is equal to point array 1 and so on
+     //
 
 }
