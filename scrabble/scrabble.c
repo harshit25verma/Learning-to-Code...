@@ -31,14 +31,7 @@ int compute_score(string word)
 {
     // TODO: Compute and return score for string
 
-    //// Start to check
-    while (text[h] != '\0') //Check of the the at the no. h array is null value
-    {
-        if (isalpha(text[h])) //Check of the the at the no. h array is alphabet
-        {
-            s++; // Value actually needed
-        }
-        h++; //Increasing the value of array no.
-    }
-    return s;
+     // Start at array 0 and keep going until it is null
+     // At each non null array, 
+
 }
