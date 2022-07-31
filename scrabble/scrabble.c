@@ -46,7 +46,7 @@ int compute_score(string word)
       //Return p;
       // Return int value i.e addition of all array no.s assigned ot the word
       //
-      //
+      //int score = p
 }
 
 
