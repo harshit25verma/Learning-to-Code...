@@ -31,6 +31,5 @@ int compute_score(string word)
 {
     // TODO: Compute and return score for string
 
-    ////Calculate word 1
-    ////Return 
+    //// Start to check 
 }
