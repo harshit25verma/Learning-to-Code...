@@ -32,21 +32,25 @@ int compute_score(string word)
 {
     // TODO: Compute and return score for string
 
+      //int a = 0;
+      //int s = 0;
+      //while (word1[s] != '\0')
+      //If (word1[s] == 36)
+      //int p = int POINTS[0]
+      //p++;
+      //Return p;
       // Start at array 0 and keep going until it is null
-      int s = 0;
-      while (word1[s] != '\0')
+
+
       if (isalpha(word1[s]))// At each non null array,check if alphabet
 
       // if array is a, then is equal to point array 0, if array is b, then is equal to point array 1 and so on
       //
       //If array value of word is 36, then int value equals array valueof place 0 of point
-      //If (word1[s] == 36)
-      //int p = int POINTS[0]
-      //p++;
-      //Return p;
+
       // Return int value i.e addition of all array no.s assigned ot the word
       //
-      //int score = p
+
 }
 
 
