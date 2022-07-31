@@ -39,7 +39,6 @@ int compute_score(string word)
       //while (word1[w] != '\0')
       //If (word1[w] == int a)
       //int p = int POINTS[n]
-      //w++;
       //a++;
       //Return p;
       // Start at array 0 and keep going until it is null
