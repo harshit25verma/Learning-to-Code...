@@ -32,12 +32,15 @@ int compute_score(string word)
 {
     // TODO: Compute and return score for string
 
-      //int a = 0;
       //int s = 0;
-      //while (word1[s] != '\0')
-      //If (word1[s] == 36)
-      //int p = int POINTS[0]
-      //p++;
+      //int w = 0;
+      //int a = 36;
+      //int n = 0;
+      //while (word1[w] != '\0')
+      //If (word1[w] == int a)
+      //int p = int POINTS[n]
+      //w++;
+      //a++;
       //Return p;
       // Start at array 0 and keep going until it is null
 
