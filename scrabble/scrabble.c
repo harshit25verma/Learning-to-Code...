@@ -2,6 +2,7 @@
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 
 // Points assigned to each letter of the alphabet
 int POINTS[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10};
@@ -34,6 +35,6 @@ int compute_score(string word)
      // Start at array 0 and keep going until it is null
      // At each non null array,check if alphabet
      // if array is a, then is equal to point array 0, if array is b, then is equal to point array 1 and so on
-     //
+     // Return int value i.e addition of all array no.s assigned ot the word
 
 }
