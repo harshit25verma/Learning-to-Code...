@@ -11,6 +11,7 @@ int compute_score(string word);
 
 int main(void)
 {
+    int s = 0;
     // Get input words from both players
     string word = get_string("Player 1: ");
     //string word2 = get_string("Player 2: ");
@@ -33,7 +34,7 @@ int compute_score(string word)
 {
     // TODO: Compute and return score for string
 
-      int s = 0;
+
       int w = 0;
       int a = 36;
       int n = 0;
@@ -45,7 +46,7 @@ int compute_score(string word)
       n++;
 
       }
-      s = (word[w]) + s;
+      int s = (word[w]) + s;
       w++;
       }
       return s;
