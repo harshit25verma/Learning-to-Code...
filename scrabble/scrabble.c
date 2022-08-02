@@ -36,7 +36,7 @@ int compute_score(string word)
       //int w = 0;
       //int a = 36;
       //int n = 0;
-      //while (word1[w] != '\0' || word1[w] == )
+      //while (word1[w] != '\0' || (isalpha(word1[w])) )
       //If (word1[w] == int a)
       //int p = int POINTS[n]
       //a++;
