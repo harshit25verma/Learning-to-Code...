@@ -42,14 +42,6 @@ int compute_score(string word)
       //a++;
       //n++;
       //w++;
-      //If (word1[w] == int a)
-      //int p = int POINTS[n]
-      //a++;
-      //Return p;
-      // Start at array 0 and keep going until it is null
-
-
-      if (isalpha(word1[s]))// At each non null array,check if alphabet
 
       // if array is a, then is equal to point array 0, if array is b, then is equal to point array 1 and so on
       //
