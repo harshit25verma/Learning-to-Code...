@@ -20,8 +20,8 @@ int main(void)
     int score2 = compute_score(word2);
 
     // TODO: Print the winner
-    if (int s)
-    printf ("Player 1 wins!\n");
+    //if (int score1 >> int score2)
+    //printf ("Player 1 wins!\n");
     //if (int score1 << int score2)
     //printf ("Player 2 wins!\n");
     //else if (int score1 == int score2)
@@ -46,7 +46,7 @@ int compute_score(string word)
       w++;
       }
       Return s;
-
+      printf ("Score = %i", int s)
       // if array is a, then is equal to point array 0, if array is b, then is equal to point array 1 and so on
       //
       //If array value of word is 36, then int value equals array value of place 0 of point
