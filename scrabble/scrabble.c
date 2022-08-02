@@ -45,7 +45,7 @@ int compute_score(string word)
 
       // if array is a, then is equal to point array 0, if array is b, then is equal to point array 1 and so on
       //
-      //If array value of word is 36, then int value equals array valueof place 0 of point
+      //If array value of word is 36, then int value equals array value of place 0 of point
 
       // Return int value i.e addition of all array no.s assigned ot the word
       //
