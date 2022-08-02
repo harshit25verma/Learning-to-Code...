@@ -36,13 +36,13 @@ int compute_score(string word)
       int w = 0;
       int a = 36;
       int n = 0;
-      while ( word1[w] != '\0' || isalpha(word1[w]) )
+      while ( word[w] != '\0' || isalpha(word[w]) )
       {
-      for (word1[w] == 'a')
-      int word1[w] = POINTS[n];
+      if (word[w] == 'a')
+      int word[w] = POINTS[n];
       a++;
       n++;
-      int s = int words1[w] + int s;
+      int s = int words[w] + int s;
       w++;
       }
       Return s;
@@ -67,7 +67,3 @@ int compute_score(string word)
 
 
 
-
-int n = word[]
-      //When array at value is 36, give it 1
-       = int POINTS[n]
