@@ -40,7 +40,7 @@ int compute_score(string word)
       //if (word1[w] == 'a')
       //word1[w] == POINTS[n];
       //a++;
-      //
+      //n++;
       //w++;
       //If (word1[w] == int a)
       //int p = int POINTS[n]
