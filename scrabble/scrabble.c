@@ -32,17 +32,17 @@ int compute_score(string word)
 {
     // TODO: Compute and return score for string
 
-      //int s = 0;
-      //int w = 0;
-      //int a = 36;
-      //int n = 0;
-      //while ( word1[w] != '\0' || isalpha(word1[w]) )
-      //if (word1[w] == 'a')
-      //int word1[w] = POINTS[n];
-      //a++;
-      //n++;
-      //int s = int words1[]
-      //w++;
+      int s = 0;
+      int w = 0;
+      int a = 36;
+      int n = 0;
+      while ( word1[w] != '\0' || isalpha(word1[w]) )
+      if (word1[w] == 'a')
+      int word1[w] = POINTS[n];
+      a++;
+      n++;
+      int s = int words1[w]
+      w++;
 
       // if array is a, then is equal to point array 0, if array is b, then is equal to point array 1 and so on
       //
