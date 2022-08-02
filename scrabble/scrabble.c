@@ -41,6 +41,7 @@ int compute_score(string word)
       //word1[w] == POINTS[n];
       //a++;
       //n++;
+      //
       //w++;
 
       // if array is a, then is equal to point array 0, if array is b, then is equal to point array 1 and so on
