@@ -38,7 +38,7 @@ int compute_score(string word)
       int n = 0;
       while ( (word[w]) != '\0' || isalpha(word[w]) )
       {
-      for ( (word[w]) == 'a'; int (word[w]) = (POINTS[n]); a++)
+      for ( (word[w]) = '\a'; int (word[w]) = (POINTS[n]); a++)
       {
 
       n++;
