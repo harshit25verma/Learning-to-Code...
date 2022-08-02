@@ -44,7 +44,7 @@ int compute_score(string word)
       n++;
 
       }
-      int s = int (words[w]) + int s;
+      s = int (words[w]) + int s;
       w++;
       }
       Return s;
