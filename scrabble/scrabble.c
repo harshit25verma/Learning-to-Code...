@@ -46,7 +46,7 @@ int compute_score(string word)
       w++;
       }
       Return s;
-      printf ("Score = %i", int s)
+      printf ("Score = %i", (int s));
       // if array is a, then is equal to point array 0, if array is b, then is equal to point array 1 and so on
       //
       //If array value of word is 36, then int value equals array value of place 0 of point
