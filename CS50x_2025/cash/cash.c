@@ -23,19 +23,19 @@ int remaining_Q = amount - (quarters*25);
 //Divide the amount second with 10
 int tens = remaining_Q/10;
 //Multiply  with number of coins
-int remaining_T = amount - (tens*10);
+int remaining_T = remaining_Q - (tens*10);
 //Get the number of coins
 
 //Divide the amount third with 5
 int fives = remaining_T/5;
 //Multiply  with number of coins
-int remaining_F = amount - (fives*25);
+int remaining_F = remaining_T - (fives*25);
 //Get the number of coins
 
 //Divide the amount fourht with 1
 int ones = remaining_F/1;
 //Multiply  with number of coins
-int remaining_O = amount - (ones*25);
+int remaining_O = remaining_F - (ones*25);
 //Get the number of coins
 
 //Add the the number of coins
