@@ -13,7 +13,7 @@ int main(void)
     {
     height = get_int("Height: ");
     }
-    while (height < 1);
+    while (height < 1 || height > 8);
 
     //Print the no. of rows
     for (int rows = 1; rows <= height; rows++)
