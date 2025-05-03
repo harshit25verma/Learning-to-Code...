@@ -18,6 +18,8 @@ int main(void)
         {
             printf(" ");
         }
+        int bricks;
+        for(bricks = 1; bricks)
         printf("#");
         printf("\n");
     }
