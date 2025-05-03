@@ -13,7 +13,11 @@ int main(void)
     int rows;
     for (rows = 0; rows<height; rows++)
     {
-        for (spaces = 0; spaces < height - 1; spaces++)
+        int spaces;
+        for (spaces = height; spaces < height; spaces--)
+        {
+            printf(" ");
+        }
         printf("#");
         printf("\n");
     }
