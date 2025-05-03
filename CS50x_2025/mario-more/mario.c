@@ -11,7 +11,7 @@ int main(void)
     while(height<1);
 
     int rows;
-    for (rows = 0; rows<height; rows++)
+    for (rows = 1; rows <= height; rows++)
     {
         int spaces;
         for (spaces = 0; spaces < height; spaces++)
@@ -19,8 +19,10 @@ int main(void)
             printf(" ");
         }
         int bricks;
-        for(bricks = 1; bricks)
-        printf("#");
+        for(bricks = 0; bricks < rows; bricks++)
+        {
+            printf("#");
+        }
         printf("\n");
     }
 }
