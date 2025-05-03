@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <cs50.h>
 
+void print_spaces(int spaces, int height, int rows);
+void print_bricks(int bricks, int rows);
+
 int main(void)
 {
     int height;
@@ -39,7 +42,7 @@ void print_spaces(int spaces, int height, int rows)
     }
 }
 
-void print_bricks(int bricks, int rows)
+void print_bricks(int rows)
 {
     for(bricks = 0; bricks < rows; bricks++)
     {
