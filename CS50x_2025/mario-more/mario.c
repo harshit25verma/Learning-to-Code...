@@ -14,7 +14,7 @@ int main(void)
     for (rows = 0; rows<height; rows++)
     {
         int spaces;
-        for (spaces = height; spaces < height; spaces--)
+        for (spaces = 0; spaces < height; spaces++)
         {
             printf(" ");
         }
