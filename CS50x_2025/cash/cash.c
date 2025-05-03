@@ -9,5 +9,5 @@ int amount;
     {
         amount = get_int("Change owed: ");
     }
-    while(amount > 0 || amount < 100);
+    while(amount>0 || amount<100);
 }
