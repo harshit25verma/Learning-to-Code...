@@ -6,14 +6,15 @@ int main(void)
     int height;
     do
     {
-        int height = get_int("Height: ");
+        height = get_int("Height: ");
     }
     while(height<1);
 
     int rows;
-    for (int rows = 0; rows<height; rows++)
+    for (rows = 0; rows<height; rows++)
     {
+        
         printf("#");
-        printf("/n");
+        printf("\n");
     }
 }
