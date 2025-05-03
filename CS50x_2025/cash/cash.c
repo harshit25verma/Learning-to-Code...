@@ -27,7 +27,7 @@ int remaining_T = remaining_Q - (tens*10);
 //Divide the amount third with 5
 int fives = remaining_T/5;
 //Multiply  with number of coins
-int remaining_F = remaining_T - (fives*25);
+int remaining_F = remaining_T - (fives*5);
 //Get the number of coins
 
 //Divide the amount fourht with 1
