@@ -39,6 +39,6 @@ int remaining_O = remaining_F - (ones*25);
 //Add the the number of coins
 int sum = quarters+tens+fives+ones ;
 //Show the number of coins
-printf("%i", sum);
+printf("%i\n", sum);
 
 }
