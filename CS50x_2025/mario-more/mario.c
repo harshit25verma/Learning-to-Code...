@@ -11,7 +11,7 @@ int main(void)
     {
         height = get_int("Height: ");
     }
-    while(height<1);
+    while(height<1 || height>8);
 
     int rows;
     for (rows = 1; rows <= height; rows++)
@@ -25,7 +25,7 @@ int main(void)
 
         //Print Increasing Bricks
             print_bricks(rows);
-            
+
         printf("\n");
     }
 }
