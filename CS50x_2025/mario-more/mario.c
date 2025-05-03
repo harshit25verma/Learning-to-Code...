@@ -16,9 +16,10 @@ int main(void)
     int rows;
     for (rows = 1; rows <= height; rows++)
     {
-
-        print_spaces(rows, height);
-        print_bricks(rows);
+        //Print decreasing Spaces
+            print_spaces(rows, height);
+        //Print Increasing Bricks
+            print_bricks(rows);
 
         printf(" ");
 
@@ -30,7 +31,7 @@ int main(void)
 
 
 
-
+//Print decreasing Spaces
 void print_spaces(int height, int rows)
 {
     for (int spaces = 0; spaces < height - rows; spaces++)
@@ -39,6 +40,7 @@ void print_spaces(int height, int rows)
     }
 }
 
+//Print Increasing Bricks
 void print_bricks(int rows)
 {
     for(int bricks = 0; bricks < rows; bricks++)
