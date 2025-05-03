@@ -9,7 +9,7 @@ int main(void)
     {
         amount = get_int("Change owed: ");
     }
-    while(amount<0 || amount>100);
+    while(amount<0);
 
 //Divide the amount first with 25
 int quarters = amount/25;
