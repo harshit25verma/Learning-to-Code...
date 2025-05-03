@@ -17,6 +17,7 @@ int main(void)
 int a = amount/25;
 //Get the number of coins
 
+
 //Divide the amount second with 10
 int b = amount/10;
 //Get the number of coins
