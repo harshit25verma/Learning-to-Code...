@@ -32,6 +32,6 @@ int d = amount/1;
 //Add the the number of coins
 int sum = a+b+c+d ;
 //Show the number of coins
-printf("%i", int sum);
+printf("%i", sum);
 
 }
