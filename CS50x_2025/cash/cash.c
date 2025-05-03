@@ -3,8 +3,6 @@
 
 int main(void)
 {
- //   25 , 10 , 5 , 1
-
  //Get the amount from the User b/w 1-100
     int amount;
     do
