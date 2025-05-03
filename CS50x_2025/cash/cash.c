@@ -32,13 +32,11 @@ int remaining_F = remaining_T - (fives*5);
 
 //Divide the amount fourht with 1
 int ones = remaining_F/1;
-//Multiply  with number of coins
-int remaining_O = remaining_F - (ones*25);
 //Get the number of coins
 
 //Add the the number of coins
 int sum = quarters+tens+fives+ones ;
 //Show the number of coins
-printf("%i\n", sum);
+printf("Total Coins:%i\n", sum);
 
 }
