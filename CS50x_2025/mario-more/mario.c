@@ -12,6 +12,7 @@ int main(void)
     int rows;
     for (int rows = 0; rows<height; rows++)
     {
-        
+        printf("#");
+        printf("/n");
     }
 }
