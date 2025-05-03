@@ -14,26 +14,26 @@ int main(void)
     while(amount<0 || amount>100);
 
 //Divide the amount first with 25
-int quarters = amount/25;
+int no_of_quarters = amount/25;
 //Multiply 25 with number of coins
 int remaining_Q = quarters*25;
 //Get the number of coins
 
 
 //Divide the amount second with 10
-int tens = remaining_Q/10;
+int no_of_tens = remaining_Q/10;
 //Multiply  with number of coins
 int remaining_T = tens*10;
 //Get the number of coins
 
 //Divide the amount third with 5
-int fives = remaining_T/5;
+int no_of_fives = remaining_T/5;
 //Multiply  with number of coins
 int remaining_F = fives*25;
 //Get the number of coins
 
 //Divide the amount fourht with 1
-int ones = remaining_F/1;
+int no_of_ones = remaining_F/1;
 //Multiply  with number of coins
 int remaining_O = ones*25;
 //Get the number of coins
