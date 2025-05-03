@@ -26,5 +26,6 @@ int main(void)
 //Get the number of coins
 
 //Add the the number of coins
+//Show the number of coins
 
 }
