@@ -34,7 +34,7 @@ int main(void)
 //Print decreasing Spaces
 void print_spaces(int height, int rows)
 {
-    for (int spaces = 0; spaces < height - rows; spaces++)
+    for (int spaces = 0; spaces < (height - rows); spaces++)
     {
         printf(" ");
     }
