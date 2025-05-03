@@ -21,7 +21,7 @@ int main(void)
         int bricks;
 
         print_spaces(rows, height, rows);
-        print_bricks(rows);
+        print_bricks(rows, bricks);
 
         printf(" ");
 
@@ -42,7 +42,7 @@ void print_spaces(int spaces, int height, int rows)
     }
 }
 
-void print_bricks(int rows)
+void print_bricks(int rows, int bricks)
 {
     for(bricks = 0; bricks < rows; bricks++)
     {
