@@ -14,5 +14,17 @@ int main(void)
     while(amount<0 || amount>100);
 
 //Divide the amount first with 25
-//Divide the amount 
+//Get the number of coins
+
+//Divide the amount second with 10
+//Get the number of coins
+
+//Divide the amount third with 5
+//Get the number of coins
+
+//Divide the amount fourht with 1
+//Get the number of coins
+
+//Add the the number of coins
+
 }
