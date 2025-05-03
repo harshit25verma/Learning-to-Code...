@@ -17,12 +17,15 @@ int main(void)
     for (rows = 1; rows <= height; rows++)
     {
         //Print decreasing Spaces
-            print_spaces(rows, height);
+            print_spaces(height, rows);
         //Print Increasing Bricks
             print_bricks(rows);
 
         printf(" ");
 
+        //Print Increasing Bricks
+            print_bricks(rows);
+            
         printf("\n");
     }
 }
