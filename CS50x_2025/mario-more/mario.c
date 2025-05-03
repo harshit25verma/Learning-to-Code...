@@ -21,7 +21,8 @@ int main(void)
         //Print Increasing Bricks
             print_bricks(rows);
 
-        printf(" ");
+        //Print the gap between
+        printf("  ");
 
         //Print Increasing Bricks
             print_bricks(rows);
