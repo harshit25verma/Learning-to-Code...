@@ -5,28 +5,28 @@ int value[65] = 1;
 int value[66] = 3;
 int value[67] = 3;
 int value[68] = 2;
-int value[69] =  1	3	3	2	1	4	2	4	1	8	5	1	3	1	1	3	10	1	1	1	1	4	4	8	4	10
-;
-int value[70] = 1;
-int value[71] = 1;
-int value[72] = 1;
+int value[69] = 1;
+int value[70] = 4;
+int value[71] = 2;
+int value[72] = 4;
 int value[73] = 1;
-int value[74] = 1;
-int value[75] = 1;
+int value[74] = 8;
+int value[75] = 5;
 int value[76] = 1;
-int value[77] = 1;
+int value[77] = 3;
 int value[78] = 1;
 int value[79] = 1;
-int value[80] = 1;
-int value[81] = 1;
+int value[80] = 3;
+int value[81] = 10;
+int value[82] = 1;
 int value[83] = 1;
 int value[84] = 1;
 int value[85] = 1;
-int value[86] = 1;
-int value[87] = 1;
-int value[88] = 1;
-int value[89] = 1;
-int value[90] = 1;
+int value[86] = 4;
+int value[87] = 4;
+int value[88] = 8;
+int value[89] = 4;
+int value[90] = 10;
 
 int main (void)
 {
