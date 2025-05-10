@@ -41,7 +41,7 @@ int main (void)
     //repeat until 0/(null) found
     do
     {
-        
+        player_one[0]
     }
 
     //take the value from the above loop for player_one
