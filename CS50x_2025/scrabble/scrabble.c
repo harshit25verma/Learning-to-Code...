@@ -34,16 +34,17 @@ int main (void)
     string player_two = get_string("Player 2: ");
 
     //run a loop to go to the character of a string
+    //repeat until 0/(null) found
+    while (player_one[n] != '\0')
+    {
+        
     //check if the character ascii value is what
     //change char to an int value for scrabble rules
     //give this value back
     //go to the next character
-    //repeat until 0/(null) found
-    do
-    {
-        player_one[0]
+
+        n++;
     }
-    while (player_one[n] != '0\')
 
     //take the value from the above loop for player_one
     //add them one by one
