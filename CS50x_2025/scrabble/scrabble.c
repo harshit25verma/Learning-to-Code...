@@ -3,5 +3,5 @@
 
 int main (void)
 {
-    
+    player_one = 
 }
