@@ -5,7 +5,8 @@ int value[65] = 1;
 int value[66] = 3;
 int value[67] = 3;
 int value[68] = 2;
-int value[69] = ;
+int value[69] =  1	3	3	2	1	4	2	4	1	8	5	1	3	1	1	3	10	1	1	1	1	4	4	8	4	10
+;
 int value[70] = 1;
 int value[71] = 1;
 int value[72] = 1;
