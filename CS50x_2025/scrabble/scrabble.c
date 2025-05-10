@@ -9,6 +9,19 @@ int main (void)
     string word1 = get_string("Player 1: ");
     string word2 = get_string("Player 2: ");
 
+
+        //run a loop to go to the character of a string
+             int n = 0;
+                while (word1[n] != '\0')    //repeat until '\0'(null) found
+                {
+                    //check if the character ascii value is what
+                  printf("%i ", n);
+                    //change char to an int value for scrabble rules
+                    //give this value back
+
+                    n++;    //go to the next character
+                }
+
     //take the value from the above loop for player_one
     //add them one by one
 
@@ -23,14 +36,4 @@ int main (void)
 
 
 
-//run a loop to go to the character of a string
-    int n = 0;
-    while (word1[n] != '\0')    //repeat until '\0'(null) found
-    {
-    //check if the character ascii value is what
-        printf("%i ");
-    //change char to an int value for scrabble rules
-    //give this value back
 
-        n++;    //go to the next character
-    }
