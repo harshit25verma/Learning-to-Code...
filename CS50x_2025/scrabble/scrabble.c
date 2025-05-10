@@ -39,6 +39,10 @@ int main (void)
     //give this value back
     //go to the next character
     //repeat until 0/(null) found
+    do
+    {
+        
+    }
 
     //take the value from the above loop for player_one
     //add them one by one
