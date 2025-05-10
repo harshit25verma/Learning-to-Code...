@@ -43,6 +43,7 @@ int main (void)
     {
         player_one[0]
     }
+    while (player_one[n] != '0\')
 
     //take the value from the above loop for player_one
     //add them one by one
