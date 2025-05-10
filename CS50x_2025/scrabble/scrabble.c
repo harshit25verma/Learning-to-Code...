@@ -1,6 +1,33 @@
 #include <stdio.h>
 #include <cs50.h>
 
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
+int value[65] = 1;
 
 
 
