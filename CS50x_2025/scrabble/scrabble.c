@@ -25,13 +25,10 @@ int main (void)
 
 //run a loop to go to the character of a string
     int n = 0;
-    while (word1[n] != '\0')    //repeat until 0/(null) found
+    while (word1[n] != '\0')    //repeat until '\0'(null) found
     {
     //check if the character ascii value is what
-        if word1[0] = 65
-        {
-            word1[0] = 1;
-        }
+        
     //change char to an int value for scrabble rules
     //give this value back
 
