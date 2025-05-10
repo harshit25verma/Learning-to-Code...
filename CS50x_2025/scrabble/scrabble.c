@@ -40,7 +40,10 @@ int main (void)
     {
 
     //check if the character ascii value is what
-        //if player_one[0] = 65, then assign int value 1 to it
+        if player_one[0] = 65
+        {
+            
+        }
     //change char to an int value for scrabble rules
     //give this value back
     //go to the next character
