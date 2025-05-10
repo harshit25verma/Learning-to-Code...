@@ -30,8 +30,8 @@ int value[90] = 10;
 
 int main (void)
 {
-    string player_one = get_string("Player 1: ");
-    string player_two = get_string("Player 2: ");
+    string word1 = get_string("Player 1: ");
+    string word2 = get_string("Player 2: ");
 
     //run a loop to go to the character of a string
     int n = 0;
