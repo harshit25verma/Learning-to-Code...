@@ -33,4 +33,12 @@ int main (void)
     string player_one = get_string("Player 1: ");
     string player_two = get_string("Player 2: ");
 
+    //run a loop to go to the character of a string
+    //check if the character ascii value is what
+    //change char to an int value for scrabble rules
+    //give this value back
+    //go to the next character
+    //repeat
+
+    //
 }
