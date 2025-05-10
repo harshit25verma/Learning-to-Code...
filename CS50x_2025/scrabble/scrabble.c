@@ -9,7 +9,21 @@ int main (void)
     string word1 = get_string("Player 1: ");
     string word2 = get_string("Player 2: ");
 
-    //run a loop to go to the character of a string
+    //take the value from the above loop for player_one
+    //add them one by one
+
+    //take the value from the above loop for player_two
+    //add them one by one
+
+    //compare player_one and player_two
+    //if player_one > player_two, print Player 1 wins!
+    //if player_two < player_one, print Player 2 wins!
+    //if player_one = player_two, Tie!
+}
+
+
+
+//run a loop to go to the character of a string
     int n = 0;
     //repeat until 0/(null) found
     while (word1[n] != '\0')
@@ -26,15 +40,3 @@ int main (void)
 
         n++;
     }
-
-    //take the value from the above loop for player_one
-    //add them one by one
-
-    //take the value from the above loop for player_two
-    //add them one by one
-
-    //compare player_one and player_two
-    //if player_one > player_two, print Player 1 wins!
-    //if player_two < player_one, print Player 2 wins!
-    //if player_one = player_two, Tie!
-}
