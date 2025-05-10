@@ -38,7 +38,16 @@ int main (void)
     //change char to an int value for scrabble rules
     //give this value back
     //go to the next character
-    //repeat
+    //repeat until 0/(null) found
 
-    //
+    //take the value from the above loop for player_one
+    //add them one by one
+
+    //take the value from the above loop for player_two
+    //add them one by one
+
+    //compare player_one and player_two
+    //if player_one > player_two, print Player 1 wins!
+    //if player_two < player_one, print Player 2 wins!
+    //if player_one = player_two, Tie!
 }
