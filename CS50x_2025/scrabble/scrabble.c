@@ -8,6 +8,11 @@ int main (void)
 
 }
 
+void main ()
+{
+    player_one[n]
+}
+
     int n = 0;
     while (player_one[n] != '\0')
     {
