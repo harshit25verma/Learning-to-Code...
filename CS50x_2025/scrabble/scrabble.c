@@ -17,6 +17,7 @@ int main (void)
                     //check if the character ascii value is what
                   printf("%i-65 ", word1[n]);
                     //change char to an int value for scrabble rules
+                    alphabet = (%i - 65, word1[n]);
                     //give this value back
 
                     n++;    //go to the next character
