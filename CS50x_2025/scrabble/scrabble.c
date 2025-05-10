@@ -30,7 +30,7 @@ int main (void)
     //check if the character ascii value is what
         if word1[0] = 65
         {
-            word1[0] = 1
+            word1[0] = 1;
         }
     //change char to an int value for scrabble rules
     //give this value back
