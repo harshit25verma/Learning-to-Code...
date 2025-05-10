@@ -28,7 +28,7 @@ int main (void)
     while (word1[n] != '\0')    //repeat until '\0'(null) found
     {
     //check if the character ascii value is what
-        
+        printf("%i ");
     //change char to an int value for scrabble rules
     //give this value back
 
