@@ -19,8 +19,8 @@ int main (void)
 
         //Check how many Letters are present in the first 100 words
         //Count words until 100 words
-        if(word_count = 100)
-        {
+        //if(word_count = 100)
+        //{
 
         }
         else
